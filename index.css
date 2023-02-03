@@ -66,6 +66,8 @@ footer {
   background-image: url("picture/wallpaper.jpg");
   background-size: cover;
   flex-basis: 80%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .for_my_photo {
@@ -110,6 +112,8 @@ footer {
     background-image: url("picture/wallpaper.jpg");
     background-size: cover;
     flex-basis: 80%;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
    .for_my_photo {
