@@ -56,6 +56,7 @@ body, html {
     width:100%;
     background-size: cover;
     flex-basis: 80%;
+    background-color: lightcyan;
   }
 
   .flex_header{
