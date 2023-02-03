@@ -51,12 +51,79 @@ body, html {
   .flex_container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
     height:100%;
     width:100%;
-    background-image: url("wallpaper.jpg");
     background-size: cover;
     flex-basis: 80%;
+  }
+
+  .flex_header{
+    height: 10%;
+    font-size: 3rem;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex_body{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height:90%;
+  }
+
+  .project1_container{
+     width:30%;
+     display: flex;
+     flex-direction: column;
+     align-items:  center;
+     background-color: gainsboro;
+  }
+
+  .project1_container> p {
+    font-size: 2rem;
+  }
+
+  .project1_container > img{
+    width: 80%;
+    height: 70%; 
+    background-color: greenyellow;
+  }
+
+  .project1_container > a:link{
+    text-decoration: none;
+  }
+
+  .project1_container >a:hover{
+    background-color: gray;
+  }
+
+  .project2_container{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    background-color:  gainsboro;
+  }
+
+  .project2_container> p {
+    font-size: 2rem;
+  }
+
+  .project2_container > img{
+    width: 80%;
+    height: 70%; 
+    background-color:greenyellow;
+  }
+
+  .project2_container > a:link{
+    text-decoration: none;
+  }
+
+  .project2_container >a:hover{
+    background-color: gray;
   }
   
   footer {
@@ -75,41 +142,57 @@ body, html {
       flex-direction: column;
       height:100%;
       width:100%;
-      background-image: url("wallpaper.jpg");
       background-size: cover;
       flex-basis: 80%;
     }
   
-     .for_my_photo {
-      display: flex;
-      justify-content: center;
-      height:30%;
-      width: 100%;
-    } 
-  
-    
-    .for_my_photo>img {
-      max-width: 100%;
-      height: 50%;
-      border-radius: 35%;
-    }
-    
-    .welcoming_text {
-      width: 50%;
+    .flex_body{
       display: flex;
       flex-direction: column;
-      flex:3;
+      align-items: center;
+      justify-content:space-around;
+      width: 100%;
+      height:90%;
     }
-    
-    .welcoming_text > h1 {
-      font-size: 3rem;
-      margin: 1px;
+  
+    .project1_container{
+       width:70%;
+       height: 70%;
+       display: flex;
+       flex-direction: column;
+       align-items:  center;
+       background-color: gainsboro;
     }
-    
-    .welcoming_text>p {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-weight: normal;
+  
+    .project1_container> p {
       font-size: 2rem;
-      margin: 1px;
     }
+  
+    .project1_container > img{
+      width: 50%;
+      height: 70%; 
+      background-color: greenyellow;
+    }
+  
+    .project2_container{
+      width:70%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items:  center;
+      background-color:  gainsboro;
+    }
+  
+    .project2_container> p {
+      font-size: 2rem;
+    }
+  
+    .project2_container > img{
+      width: 50%;
+      height: 70%; 
+      background-color:greenyellow;
+    }
+
+    
+     
   }
