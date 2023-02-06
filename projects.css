@@ -76,7 +76,7 @@ body, html {
   }
 
   .project1_container{
-     width:30%;
+     width:45%;
      display: flex;
      flex-direction: column;
      align-items:  center;
@@ -88,7 +88,7 @@ body, html {
   }
 
   .project1_container > img{
-    width: 80%;
+    width: 95%;
     height: 70%;
   }
 
@@ -101,7 +101,7 @@ body, html {
   }
 
   .project2_container{
-    width:30%;
+    width:45%;
     display: flex;
     flex-direction: column;
     align-items:  center;
@@ -113,9 +113,8 @@ body, html {
   }
 
   .project2_container > img{
-    width: 80%;
+    width: 95%;
     height: 70%; 
-    background-color:greenyellow;
   }
 
   .project2_container > a:link{
@@ -136,7 +135,7 @@ body, html {
     flex-basis: 10%;
   }
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1600px) {
 
     body {
       font-family: Arial, sans-serif;
@@ -156,6 +155,16 @@ body, html {
       overflow-y: scroll;
       justify-content: space-between;
     }
+
+    .flex_header{
+      height: 5%;
+      font-size: 3rem;
+      width: 100%;
+      background-color: beige;
+      display: flex;
+      justify-content: center;
+    }
+  
   
     .flex_body{
       display: flex;
@@ -163,12 +172,12 @@ body, html {
       align-items: center;
       justify-content:space-around;
       width: 100%;
-      height:90%;
+      height:95%;
     }
   
     .project1_container{
-       width:70%;
-       height: 50%;
+       width:95%;
+       height:45%;
        display: flex;
        flex-direction: column;
        align-items:  center;
@@ -180,14 +189,14 @@ body, html {
     }
   
     .project1_container > img{
-      width: 80%;
+      width: 95%;
       height: 70%; 
       background-color: greenyellow;
     }
   
     .project2_container{
-      width:70%;
-      height: 50%;
+      width:95%;
+      height: 45%;
       display: flex;
       flex-direction: column;
       align-items:  center;
@@ -199,7 +208,7 @@ body, html {
     }
   
     .project2_container > img{
-      width: 80%;
+      width: 95%;
       height: 70%; 
       background-color:greenyellow;
     }
