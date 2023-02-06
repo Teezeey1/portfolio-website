@@ -89,8 +89,7 @@ body, html {
 
   .project1_container > img{
     width: 80%;
-    height: 70%; 
-    background-color: greenyellow;
+    height: 70%;
   }
 
   .project1_container > a:link{
