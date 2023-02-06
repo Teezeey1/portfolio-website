@@ -21,12 +21,54 @@
     </header>
         <div class="flex_container">
            
-            <p>todolist</p>
+            <div class="flex_container_1">
+                <img src="./picture/todoli screenshot.jpg" alt="screenshot holder">
+                <div class="text_block_container">
+                    <p> Upon opening the website, we can chose 4 pre-defined catagory,
+                        and to go to list of our choice, click on go to list button.
+                    </p>
+                    <p> The connection between our list and list content is established 
+                        via <b>React Router Dom</b>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex_container_2">
+                <img src="./picture/todoli empty.jpg" alt="screenshot holder">
+                <div class="text_block_container">
+                    <p>Once select a list, user will be greeted with a textbox,
+                        where the user can enter a new task on the top.
+                    </p>
+                    <p>Add task was achieved using <b>useState</b> and <b>onClick</b>
+                        method to put new task into a task Array, in which we display individual task
+                        by javascript mapping to a JSX element </p>
+                    <p>Also used <b>localstorage</b> of the browser to store the task we input</p>
+                </div>
+            </div>
+
+            <div class="flex_container_3">
+                <img src="./picture/todoli add task.jpg" alt="screenshot holder">
+                <div class="text_block_container">
+                    <p>For example, the user input "make diner" in the input box. Upon hitting enter,
+                        make dinner would show  up in our task list. </p>
+                    <p>And I already added task "sweep the floor" to
+                        demonstrate the ability to display task instead of a placeholder if there is new task.</p>
+                    <p>The app also do not allow user to input duplicated task on the input bar and also prevent empty input.</p>
+                </div>
+            </div>
+
+            <div class="flex_container_4">
+                <img src="./picture/todoli edit.jpg" alt="screenshot holder">
+                <div class="text_block_container">
+                    <p>To edit a task, first hit the edit button next to the text. The form to edit task will then show up
+                        above the task.
+                    </p>
+                    <p>Edit the task by typing in the input, and click edit task to edit.</p>
+                    <p>The edit input prevent empty input.</p>
+                </div>
+            </div>
         </div>
 
-    <footer>
-        <p>Yibiao's Portfolio</p>
-    </footer>
 </body>
 
 </html>
