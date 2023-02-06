@@ -54,7 +54,7 @@ body, html {
     flex-direction: column;
     height:100%;
     width:100%;
-    background-color: yellow;
+    background-color: lightsalmon;
     background-size: cover;
     flex-basis: 80%;
   }
@@ -84,7 +84,7 @@ body, html {
       flex-direction: column;
       height:100%;
       width:100%;
-      background-color: yellow;
+      background-color: lightsalmon;
       background-size: cover;
       flex-basis: 80%;
     }
