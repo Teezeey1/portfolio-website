@@ -55,8 +55,7 @@ header nav a {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    /* background-image: url("wallpaper.jpg"); */
-    background-color: yellowgreen;
+    background: linear-gradient(lightgreen,white);
     background-size: cover;
     flex-basis: 80%;
 }
@@ -114,7 +113,7 @@ footer {
         flex-direction: column;
         height: 100%;
         width: 100%;
-        background-color: yellowgreen;
+        background: linear-gradient(lightgreen,white);
         background-size: cover;
         flex-basis: 80%;
         justify-content: space-evenly;
