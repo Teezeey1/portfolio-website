@@ -56,7 +56,6 @@ body, html {
     width:100%;
     background-size: cover;
     flex-basis: 80%;
-    background-color: lightcyan;
   }
 
   .flex_header{
@@ -73,6 +72,7 @@ body, html {
     justify-content: space-evenly;
     width: 100%;
     height:90%;
+    background: linear-gradient(lightsalmon,white);
   }
 
   .project1_container{
@@ -80,7 +80,8 @@ body, html {
      display: flex;
      flex-direction: column;
      align-items:  center;
-     background-color: gainsboro;
+     background: linear-gradient(gray,white);
+     border-radius: 2%;
   }
 
   .project1_container> p {
@@ -90,6 +91,7 @@ body, html {
   .project1_container > img{
     width: 95%;
     height: 70%;
+    border-radius: 2%;
   }
 
   .project1_container > a:link{
@@ -105,7 +107,8 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items:  center;
-    background-color:  gainsboro;
+    background: linear-gradient(gray,white);
+    border-radius: 2%;
   }
 
   .project2_container> p {
@@ -115,6 +118,7 @@ body, html {
   .project2_container > img{
     width: 95%;
     height: 70%; 
+    border-radius: 2%;
   }
 
   .project2_container > a:link{
@@ -181,7 +185,8 @@ body, html {
        display: flex;
        flex-direction: column;
        align-items:  center;
-       background-color: gainsboro;
+       background: linear-gradient(gray,white);
+       border-radius: 2%;
     }
   
     .project1_container> p {
@@ -191,7 +196,7 @@ body, html {
     .project1_container > img{
       width: 95%;
       height: 70%; 
-      background-color: greenyellow;
+      border-radius: 2%;
     }
   
     .project2_container{
@@ -200,7 +205,8 @@ body, html {
       display: flex;
       flex-direction: column;
       align-items:  center;
-      background-color:  gainsboro;
+      background: linear-gradient(gray,white);
+      border-radius: 2%;
     }
   
     .project2_container> p {
@@ -210,7 +216,7 @@ body, html {
     .project2_container > img{
       width: 95%;
       height: 70%; 
-      background-color:greenyellow;
+      border-radius: 2%;
     }
 
     footer {
