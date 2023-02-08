@@ -149,8 +149,9 @@ header nav a {
   .text_block_container{
     height: 30%;
     width: 70%;
-    background-color: aqua;
+    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     white-space: wrap;
+    border-radius: 2%;
   }
 
   .flex_container_1 > img{
