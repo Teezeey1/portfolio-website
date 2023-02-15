@@ -81,6 +81,7 @@ footer {
   width: 70%;
   height: 70%;
   border-radius: 35%;
+  
 }
 
 .welcoming_text {
@@ -94,6 +95,7 @@ footer {
 .my_text > h1{
   font-size: 3rem;
   margin: 1px;
+  text-shadow:1px 1px whitesmoke;
 }
 
 .my_text>p {
@@ -101,6 +103,7 @@ footer {
   font-weight: normal;
   font-size: 2rem;
   margin: 1px;
+  text-shadow:1px 1px whitesmoke;
 }
 
 /*-------for smaller screen--------*/
@@ -145,6 +148,7 @@ footer {
   .my_text > h1{
     font-size: 3rem;
     margin: 1px;
+    text-shadow:1px 1px whitesmoke;
   }
   
   .my_text>p {
@@ -152,5 +156,6 @@ footer {
     font-weight: normal;
     font-size: 2rem;
     margin: 1px;
+    text-shadow:1px 1px whitesmoke;
   }
 }
