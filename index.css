@@ -63,8 +63,8 @@ footer {
   align-items: center;
   height:100%;
   width:100%;
-  background-image: url("picture/wallpaper.jpg");
-  background-size: cover;
+  background: linear-gradient(gray,white
+  );
   flex-basis: 80%;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -109,8 +109,8 @@ footer {
     flex-direction: column;
     height:100%;
     width:100%;
-    background-image: url("picture/wallpaper.jpg");
-    background-size: cover;
+    background: linear-gradient(gray,white
+    );
     flex-basis: 80%;
     overflow-x: hidden;
     overflow-y: scroll;
