@@ -68,7 +68,7 @@ header nav a {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(lightgray,beige);
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -85,6 +85,7 @@ header nav a {
 .flex_container_1 > img{
   height: 50%;
   width: 50%;
+  border-radius: 2%;
 }
 
 .flex_container_2 {
@@ -99,6 +100,7 @@ header nav a {
 .flex_container_2 > img{
   height: 50%;
   width: 50%;
+  border-radius: 2%;
 }
 
 
@@ -116,6 +118,7 @@ header nav a {
 .flex_container_3 > img{
   height:50%;
   width: 50%;
+  border-radius: 2%;
 }
 
 
@@ -131,12 +134,13 @@ header nav a {
 .flex_container_4 > img{
   height: 50%;
   width: 50%;
+  border-radius: 2%;
 }
 
 .text_block_container{
   height: 40%;
   width: 30%;
-  background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  background:linear-gradient(0.25turn,gray, lightgray, white);
   white-space: wrap;
   border-radius: 2%;
 }
@@ -146,27 +150,31 @@ header nav a {
     height: 30%;
     width: 70%;
     white-space: wrap;
-    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background:linear-gradient(0.25turn,gray, lightgray, white);
     border-radius: 2%;
   }
 
   .flex_container_1 > img{
     height: 50%;
     width: 100%;
+    border-radius: 2%;
   }
 
   .flex_container_2 > img{
     height: 50%;
     width: 100%;
+    border-radius: 2%;
   }
 
   .flex_container_3 > img{
     height: 50%;
     width: 100%;
+    border-radius: 2%;
   }
 
   .flex_container_4 > img{
     height: 50%;
     width: 100%;
+    border-radius: 2%;
   }
 }

@@ -63,8 +63,7 @@ footer {
   align-items: center;
   height:100%;
   width:100%;
-  background: linear-gradient(gray,white
-  );
+  background:linear-gradient(0.25turn,gray, lightgray, white);
   flex-basis: 80%;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -113,8 +112,7 @@ footer {
     flex-direction: column;
     height:100%;
     width:100%;
-    background: linear-gradient(gray,white
-    );
+    background:linear-gradient(0.25turn,gray, lightgray, white);
     flex-basis: 80%;
     overflow-x: hidden;
     overflow-y: hidden;

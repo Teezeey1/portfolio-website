@@ -68,7 +68,7 @@ header nav a {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  background: linear-gradient(#e66465, #9198e5);
+  background:linear-gradient(0.25turn,gray, lightgray, white);
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -140,7 +140,7 @@ header nav a {
 .text_block_container{
   height: 30%;
   width: 30%;
-  background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  background:linear-gradient(0.25turn,gray, lightgray, white);
   white-space: wrap;
   border-radius: 2%;
 }
@@ -149,7 +149,7 @@ header nav a {
   .text_block_container{
     height: 30%;
     width: 70%;
-    background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background:linear-gradient(0.25turn,gray, lightgray, white);
     white-space: wrap;
     border-radius: 2%;
   }

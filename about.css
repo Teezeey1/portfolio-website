@@ -55,7 +55,7 @@ header nav a {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background: linear-gradient(lightgreen,white);
+    background: linear-gradient(lightgray,white);
     flex-basis: 80%;
 }
 
@@ -72,6 +72,7 @@ header nav a {
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: beige;
 }
 
 .text_header>h2{
@@ -120,7 +121,7 @@ footer {
         flex-direction: column;
         height: 100%;
         width: 100%;
-        background: linear-gradient(lightgreen,white);
+        background: linear-gradient(lightgray,white);
         background-size: cover;
         flex-basis: 80%;
         justify-content: space-evenly;
