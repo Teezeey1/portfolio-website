@@ -144,14 +144,14 @@ body, html {
     flex-basis: 10%;
   }
 
-  @media only screen and (max-width: 1600px) {
+  @media only screen and (max-width: 1500px) {
 
     body {
       font-family: Arial, sans-serif;
       display: flex;
       flex-direction: column;
       width:100vw;
-      height:200vh;
+      height:100vh;
     }
 
     .flex_container {
@@ -161,12 +161,11 @@ body, html {
       width:100%;
       background-size: cover;
       flex-basis: 80%;
-      overflow-y: scroll;
       justify-content: space-between;
     }
 
     .flex_header{
-      height: 5%;
+      height: 10%;
       font-size: 3rem;
       width: 100%;
       background-color: beige;
