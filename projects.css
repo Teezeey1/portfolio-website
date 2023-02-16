@@ -1,6 +1,6 @@
 body, html {
     margin:0;
-    padding:0;  
+    padding:0; 
   }
   
   body {
@@ -54,17 +54,21 @@ body, html {
     flex-direction: column;
     height:100%;
     width:100%;
-    background-size: cover;
     flex-basis: 80%;
   }
 
   .flex_header{
     height: 10%;
-    font-size: 5rem;
     width: 100%;
     background-color: beige;
     display: flex;
     justify-content: center;
+  }
+
+  .flex_header >h2{
+    font-size: 3rem;
+    margin: 0;
+    text-shadow:1px 1px whitesmoke;
   }
 
   .flex_body{
@@ -82,6 +86,7 @@ body, html {
      align-items:  center;
      background: linear-gradient(gray,white);
      border-radius: 2%;
+  
   }
 
   .project1_container> p {
