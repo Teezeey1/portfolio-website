@@ -22,8 +22,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
-  height: 150px;
+  padding:0;
+  flex-basis: 3%;
 }
 
 header h1 {
