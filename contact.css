@@ -98,15 +98,27 @@ body, html {
     flex-basis: 10%;
   }
 
-  @media only screen and (max-width: 1000px) {
-    .flex_container {
+  @media only screen and (max-width: 992px) {
+    .my_email{
+      font-size: 2rem;
+      text-shadow:1px 1px whitesmoke;
       display: flex;
-      flex-direction: column;
-      height:100%;
-      width:100%;
-      background-color: lightsalmon;
-      background-size: cover;
-      flex-basis: 80%;
+      margin-bottom: 10px;
+      width: 80%;
+      justify-content: center;
+    }
+  
+    .my_phone{
+      font-size: 2rem;
+      text-shadow:1px 1px whitesmoke;
+      display: flex;
+      width: 80%;
+      justify-content: center;
+    }
+
+    h2{
+      font-size: 3rem;
+      text-shadow:1px 1px whitesmoke;
     }
   
     
